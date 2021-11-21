@@ -121,7 +121,6 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
   // Then we add the earthquake layer to our map.
   allEarthquakes.addTo(map);
 
-// *************************************************************
 // Challenge Del 2: Step 3. Retrieve the major earthquake GeoJSON data >4.5 mag for the week.
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson").then(function(data) {
 
@@ -189,19 +188,6 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geoj
   // Challenge Del 2: Step 9. Close the braces and parentheses for the major earthquake data.
   });
   
-
-
-
-
-
-
-
-
-
-
-
-
-//*****************************************************************
   // Here we create a legend control object.
 let legend = L.control({
   position: "bottomright"
